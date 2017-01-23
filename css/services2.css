@@ -1,0 +1,48 @@
+.services {
+	margin-top: 7.363%;
+	font-family: Raleway;
+}
+
+.serv {
+	margin: 6% auto 8%;
+	text-align: center;
+}
+
+	.serv td {
+		width: 33.3%;
+	}
+
+		.img-serv {
+			width: 30%;
+			margin: 18% auto;
+		}
+
+		.img-serv:hover {
+			width: 40%;
+			margin: auto;
+			transition: all 0.5s ease;
+		}
+
+		.serv a {
+			color: #000;
+		}
+
+		.serv a:hover {
+			color: #f4c60b;
+		}
+
+		.serv tr:nth-child(2) td {
+			font-size: 22px;
+			font-weight: bold;
+		}
+
+		.serv tr:nth-child(3) td {
+			font-size: 14px;
+			line-height: 24px;
+			padding: 4% 3%;
+		}
+			
+
+
+
+

@@ -1,0 +1,51 @@
+@media screen and (max-width: 300px) {
+    body {
+        background-color: #d3d3d3;
+        font-family: 'Raleway';
+    }
+}
+.clearfix {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+
+.section-name{
+	text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title::after {
+	content: '';
+	display: block;
+	height: 4px;
+	background-color: #f4c60b;
+	margin: 4px auto 0;
+}
+
+.container {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+h1, h2{
+	font-family: 'Raleway';
+}
+h2 {
+    display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 100%;
+}

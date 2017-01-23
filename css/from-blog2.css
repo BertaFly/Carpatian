@@ -1,0 +1,91 @@
+.from-blog {
+	padding: 100px 0;
+	font-family: Raleway;
+}
+
+.blog {
+	margin-top: 84px;
+	text-align: center;
+}
+
+	.img-nav {
+	display: inline-block;
+	width: 2%;
+	vertical-align: middle;
+	}
+
+	.img-nav:first-child {
+		margin-right: 2%;
+	}
+
+	.img-nav:last-child {
+		margin-left: 2%;
+	}
+
+	.img-nav:hover {
+		cursor: pointer;
+	}
+
+	.blog-in {
+		display: inline-block;
+		width: 27%;
+		vertical-align: middle;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+
+	.blog-in:nth-child(2) {
+		background-image: url(../pic/layer-27.png)
+	}
+
+	.blog-in:nth-child(3) {
+		background-image: url(../pic/layer-26.png);
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.blog-in:nth-child(4) {
+		background-image: url(../pic/work-station-straight-on-view.png);
+	}
+
+		.blog-txt {
+			border: 2px solid #fff;
+			margin: 3px;
+			background: rgba(0, 0, 0, 0.5);
+		}
+
+		.blog-txt:hover {
+			background: none;
+		}
+
+				.tit {
+					padding-top: 16px;
+				}
+
+				.tit p {
+					display: inline-block;
+					vertical-align: middle;
+					text-align: left;
+					width: 68%;
+					font-size: 14px;
+				}
+
+				.img-date {
+					display: inline-block;
+					vertical-align: middle;
+					width: 22%;
+				}
+
+			.blog-txt > p {
+				font-size: 12px;
+				line-height: 20px;
+				text-align: left;
+				padding-left: 4%;
+				padding-right: 4%;
+				padding-bottom: 12px;
+			}
+
+			.blog-in:nth-child(2) .blog-txt > p {padding-top: 79%}
+			.blog-in:nth-child(3) .blog-txt > p {padding-top: 72%}
+			.blog-in:nth-child(4) .blog-txt > p {padding-top: 88%}
